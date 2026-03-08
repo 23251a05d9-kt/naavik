@@ -1,8 +1,9 @@
 import json
+import os
 from twilio.rest import Client
 
-ACCOUNT_SID = "AC6144cc475224e624f33953010e8433d7"
-AUTH_TOKEN = "c44ac368c2c318946278abac977a9279"
+account_sid = os.environ['TWILIO_ACCOUNT_SID']
+auth_token = os.environ['TWILIO_AUTH_TOKEN']
 
 TWILIO_NUMBER = "+14754739231"
 

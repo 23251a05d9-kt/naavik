@@ -2,3 +2,5 @@ __pycache__/
 .env
 node_modules/
 *.log
+.venv/
+twilio_lambda_package/lambda_function.py
